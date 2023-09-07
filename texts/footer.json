@@ -1,10 +1,10 @@
 [
   {
-    "title": "Om Kultur Kortet",
-    "text": "Kulturkortet er et samlingssted for ressourcer som kulturskabere i Århus kan trække på til at lave kulturprojekter.",
+    "title": "About this map",
+    "text": "The Culture Map is a collection of resources that culture creators in Tromsø can use to make culture projects.",
     "addresses": [
       ["<a href='/om'>Læs mer her</a>"],
-      ["", "Skabt of vedligeholdtaf"]
+      ["", "Created and kept up to date by."]
     ],
     "image": "/public/page-images/fl-logo.png"
   },
@@ -12,10 +12,10 @@
     "title": "Contact",
     "addresses": [
       [
-        "<a href='https://www.frontloberne.dk'>Frontløberne</a>",
-        "Jægegårdsgade 154c",
-        "Aarhus C",
-        "<a href='mailto:info@frontloberne.dk'>info@frontloberne.dk</a>"
+        "<a href='https://www.tvibit.net'>Tvibit</a>",
+        "Parkgata 27/29",
+        "Tromsø",
+        "<a href='mailto:karl.kristian.hansen@tromso.kommune.no'>karl.kristian.hansen@tromso.kommune.no</a>"
       ]
     ]
   },
@@ -27,11 +27,11 @@
     ],
     "addresses": [
       [
-        "Skal dit projekt være med på kortet?",
-        "<a href='/indsend'>Indsend</a>"
+        "Do you want to submit your project to the map?",
+        "<a href='/indsend'>Submit</a>"
       ],
       [
-        "Skal din by have et kultur-kort?",
+        "Should your city have a culture map?",
         "<a href='https://github.com/anetacamo/nabo'>Fork this repo</a>",
         "Få <a href='https://anetacamo.github.io/#/'>hjælp til setup</a>"
       ]
@@ -39,16 +39,16 @@
   },
 
   {
-    "title": "Sidst opdateret",
+    "title": "Last Updated",
     "addresses": [["<i>September 6, 2023</i>"]],
-    "text": "Kultur-Kortet er opdateret løbende. Tage kontakt, hvis du ser noge gammelt info."
+    "text": "The Culture Map is updated continuously. Contact us if you see any outdated info."
   },
 
   {
     "title": "REQUEST TAKEDOWN / EDIT",
-    "text": "Hvis kortet indeholder oplysninger om dit projekt, som du gerne vil have ændret eller fjernet, kontakte os.",
+    "text": "If the map contains info about your project that your want changed or removed, please contact us.",
     "bulletlinks": [
-      { "name": "info@frontloberne.dk", "link": "mailto:info@frontloberne.dk" }
+      { "name": "karl.kristian.hansen@tromso.kommune.no", "link": "mailto:karl.kristian.hansen@tromso.kommune.no" }
     ]
   },
   {
