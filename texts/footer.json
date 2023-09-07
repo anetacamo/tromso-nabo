@@ -3,7 +3,7 @@
     "title": "About this map",
     "text": "The Culture Map is a collection of resources that culture creators in Tromsø can use to make culture projects.",
     "addresses": [
-      ["<a href='/om'>Læs mer her</a>"],
+      ["<a href='/om'>Read more here</a>"],
       ["", "Created and kept up to date by."]
     ],
     "image": "/public/page-images/fl-logo.png"
