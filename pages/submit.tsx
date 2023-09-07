@@ -99,7 +99,7 @@ const NewMember = () => {
         <form
           className={styles.form}
           method="POST"
-          action={process.env.SUBMIT_KEY}
+          action="https://script.google.com/macros/s/AKfycbwEn5hUxtCC40fIuiXO68sbVbq6yRjTJfwd6yMEOk3SQ9TVJLNNgAcoC1BUk1ZcQ-Fx/exec"
         >
           <h1>{pagedata.title}</h1>
           <p>{pagedata.description}</p>
