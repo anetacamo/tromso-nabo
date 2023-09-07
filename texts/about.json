@@ -5,16 +5,16 @@
   "meta": "",
   "sections": [
     {
-      "title": "Do you know of something that should be on the map?",
+      "title": "Do you know something that should be on the map?",
       "text": "This map is kept up to date by <a href='https://tvibit.net/'>Tvibit</a>. Do you represent a community or organisation that wants to be a part of the map? <br/><br/><i>The map was last updated 07-Sept-2023</i>",
-      "buttons": [{ "name": "indsend", "link": "/indsend" }],
+      "buttons": [{ "name": "submit", "link": "/indsend" }],
       "orientation": "left",
       "background": "darkblue"
     },
 
     {
-      "title": "Hvorfor de kategorier?",
-      "text": "De ressourcer, vi ønskede at sætte på kortet, er super varierede. De her 8 kategorier er det vi kom frem til. Her kan du læse lidt mer om hver af dem.",
+      "title": "Why these categories?",
+      "text": "The resources we want to map are super diverse, and this is the 8 categories we could come up with to describe them. Read more about them here!",
       "background": "white",
       "orientation": "center"
     }
