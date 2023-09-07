@@ -19,8 +19,8 @@ interface MapGiProps {
 export default function MapGl({ posts }: MapGiProps) {
   const [name, setName] = useState("");
   const [viewState, setViewState] = useState({
-    latitude: 56.15520483651387,
-    longitude: 10.245000205993804,
+    latitude: 69.65065246406847,
+    longitude: 18.956804295081962,
     zoom: 12,
   });
 
