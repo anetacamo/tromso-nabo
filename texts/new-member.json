@@ -1,19 +1,19 @@
 {
-  "title": "Tilføj ny ressource",
-  "description": "Står du for, eller kender du til en ressource, du synes skal være på kortet? Udfyld formularen, så vender vi tilbage til dig eller poster dig direkte i kortet.",
+  "title": "Add a new rescource",
+  "description": "Are you a part of, or do you know of a resource that should be a part of the map? Fill out this form and we'll get in touch with you or simply just add it to the map!",
   "meta": "this short text is optional if above description is short enough. should be no longer then 155 characters long. usd for google seacg results",
-  "helper": "Bemærk, at ved at trykke på ovenstående knap vil indsendte data blive gennemgået og udelukkende brugt til offentlig visning på denne side. Vær derfor advaret om ikke at dele nogen form for følsomme oplysninger. Giv os venligst besked, hvis du ønsker, at dine data skal slettes eller ændres via info@frontloberne.dk",
+  "helper": "If you press the button above we'll collect the data you have submitted and use it solely for this map. Please do not share any sensitive data, and contact us if you want us to remove or change anything with your submission via marja.kristine.reibo.gundersen@tromso.kommune.no",
   "submit_button": "submit form",
   "required_fields_message": "Fields with star are required.",
   "form_submitted_message": "Succes! your entry was submitted.",
   "inputs": [
     {
-      "label": "Navn på ressource",
+      "label": "Title for your resource",
       "name": "title",
       "required": true
     },
     {
-      "label": "Adresse",
+      "label": "Adress",
       "name": "address"
     },
     {
@@ -26,15 +26,15 @@
       "name": "longitude"
     },
     {
-      "label": "Hjemmeside",
+      "label": "homepage",
       "name": "link"
     },
     {
-      "label": "URL til billede",
+      "label": "URL for your image",
       "name": "billedlink"
     },
     {
-      "label": "Billede credit",
+      "label": "Image credit",
       "name": "credit"
     },
     {
@@ -54,38 +54,38 @@
     {
       "label": "Visible Tags",
       "name": "tags",
-      "helper": "Visible tags skal være omkring tre, ikke mere end fem. Brug dem så beskrivende som muligt. De kan søges og vises for at hjælpe med at give kontekst og specifik information."
+      "helper": "Visible tags should only be around three, and not more than five. Use them to describe your resource. They can be searched for and shown to help give context and more specific information."
     },
     {
       "label": "Hidden Tags",
       "name": "invisible",
-      "helper": "Disse tags vil ikke være synlige nogen steder, men de vil komme frem i søgeresultater. Prøv at begrænse dem til 5."
+      "helper": "These tags wont be visible anywhere, but will be shown i search results. Try to limit them to five tags."
     }
   ],
   "textAreas": [
     {
-      "label": "Om ressourcen",
+      "label": "About the ressource",
       "name": "description",
       "required": true
     },
     {
-      "label": "Hvordan kan man bruge denne ressource?",
+      "label": "How can you use this ressource?",
       "name": "howtouse"
     }
   ],
 
   "formContents": {
     "name": {
-      "label": "Navn"
+      "label": "Name"
     },
     "adresse": {
-      "label": "Addresse"
+      "label": "Address"
     },
     "description": {
-      "label": "Om ressourcen"
+      "label": "About the ressource"
     },
     "howtouse": {
-      "label": "Hvordan kan man bruge denne ressource?"
+      "label": "How can you use this ressource?"
     }
   }
 }
