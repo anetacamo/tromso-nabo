@@ -1,12 +1,12 @@
 {
   "title": "Culture Map Tromsø",
   "image": "/page-images/about.png",
-  "description": "Kultur-Kortet er et samlingssted af ressourcer Aarhusianske kulturskabere kan trække på til at lave udstillinger, spille koncerter, holde workshops, og meget andet.",
+  "description": "The Culture Map is a collection of resources for culture creators in Tromsø. Use this to connect with other culture creators, and to find information, inspiration and maybe even your next venue!",
   "meta": "",
   "sections": [
     {
-      "title": "Kender du til noget der skal med på kortet?",
-      "text": "Kortet vedligeholdes af <a href='https://www.frontloberne.dk'>Frontløberne</a> som opdaterer den løbende. Står du for et fælleskab eller andet som du vil have med på kortet?<br/><br/><i>Kortet var sidst opdateret 23-Aug-2023</i>",
+      "title": "Do you know of something that should be on the map?",
+      "text": "This map is kept up to date by <a href='https://tvibit.net/'>Tvibit</a>. Do you represent a community or organisation that wants to be a part of the map? <br/><br/><i>The map was last updated 07-Sept-2023</i>",
       "buttons": [{ "name": "indsend", "link": "/indsend" }],
       "orientation": "left",
       "background": "darkblue"
