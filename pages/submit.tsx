@@ -50,45 +50,45 @@ const NewMember = () => {
   }, [member.title, member.description, member.type]);
 
   //submit event
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    // const formEle = document.querySelector("form");
-    // const formDatab = new FormData(formEle);
-    console.log("submit click");
-    console.log(member);
-    console.log(JSON.stringify(member));
-    event.preventDefault();
-    if (spam !== "") {
-      console.log("spam here");
-    } else {
-      fetch(
-        "https://script.google.com/macros/s/AKfycbxM0sBh-msG8sd2rGBDk6pXKvECqp_iq_fGSYHH1TcG5lk2Hbm15g7YAQRdxAk7mUv3Zg/exec",
-        {
-          method: "POST",
-          mode: "no-cors",
-          body: JSON.stringify(member),
-        }
-      )
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-      // axios
-      //   .post(
-      //     "https://sheet.best/api/sheets/fcf501b9-9c62-4b8a-8188-900ed153fa38",
-      //     member
-      //   )
-      //   .then((response) => {
-      console.log(member);
-      setFormSent(true);
-    }
+  // const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  //   // const formEle = document.querySelector("form");
+  //   // const formDatab = new FormData(formEle);
+  //   console.log("submit click");
+  //   console.log(member);
+  //   console.log(JSON.stringify(member));
+  //   event.preventDefault();
+  //   if (spam !== "") {
+  //     console.log("spam here");
+  //   } else {
+  //     fetch(
+  //       "https://script.google.com/macros/s/AKfycbxM0sBh-msG8sd2rGBDk6pXKvECqp_iq_fGSYHH1TcG5lk2Hbm15g7YAQRdxAk7mUv3Zg/exec",
+  //       {
+  //         method: "POST",
+  //         mode: "no-cors",
+  //         body: JSON.stringify(member),
+  //       }
+  //     )
+  //       .then((res) => res.json())
+  //       .then((data) => {
+  //         console.log(data);
+  //       })
+  //       .catch((error) => {
+  //         console.log(error);
+  //       });
+  //     // axios
+  //     //   .post(
+  //     //     "https://sheet.best/api/sheets/fcf501b9-9c62-4b8a-8188-900ed153fa38",
+  //     //     member
+  //     //   )
+  //     //   .then((response) => {
+  //     console.log(member);
+  //     setFormSent(true);
+  //   }
 
-    setSpam("");
-    setMember(emptyMember);
-    //});
-  };
+  //   setSpam("");
+  //   setMember(emptyMember);
+  //   //});
+  // };
 
   return (
     <DefaultLayout
