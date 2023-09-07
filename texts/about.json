@@ -1,20 +1,20 @@
 {
-  "title": "Kultur-Kortet Aarhus",
+  "title": "Culture Map Tromsø",
   "image": "/page-images/about.png",
-  "description": "Kultur-Kortet er et samlingssted af ressourcer Aarhusianske kulturskabere kan trække på til at lave udstillinger, spille koncerter, holde workshops, og meget andet.",
+  "description": "The Culture Map is a collection of resources for culture creators in Tromsø. Use this to connect with other culture creators, and to find information, inspiration and maybe even your next venue!",
   "meta": "",
   "sections": [
     {
-      "title": "Kender du til noget der skal med på kortet?",
-      "text": "Kortet vedligeholdes af <a href='https://www.frontloberne.dk'>Frontløberne</a> som opdaterer den løbende. Står du for et fælleskab eller andet som du vil have med på kortet?<br/><br/><i>Kortet var sidst opdateret 23-Aug-2023</i>",
-      "buttons": [{ "name": "indsend", "link": "/indsend" }],
+      "title": "Do you know something that should be on the map?",
+      "text": "This map is kept up to date by <a href='https://tvibit.net/'>Tvibit</a>. Do you represent a community or organisation that wants to be a part of the map? <br/><br/><i>The map was last updated 07-Sept-2023</i>",
+      "buttons": [{ "name": "submit", "link": "/indsend" }],
       "orientation": "left",
       "background": "darkblue"
     },
 
     {
-      "title": "Hvorfor de kategorier?",
-      "text": "De ressourcer, vi ønskede at sætte på kortet, er super varierede. De her 8 kategorier er det vi kom frem til. Her kan du læse lidt mer om hver af dem.",
+      "title": "Why these categories?",
+      "text": "The resources we want to map are super diverse, and this is the 8 categories we could come up with to describe them. Read more about them here!",
       "background": "white",
       "orientation": "center"
     }
