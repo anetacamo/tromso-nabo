@@ -28,7 +28,8 @@ export default function SinglePage() {
 
   useEffect(() => {
     Papa.parse(
-      "https://docs.google.com/spreadsheets/d/e/2PACX-1vTEciZaKX8GYkcIPg1k9Qblp4MnPcUbjzAAniBNM3I1jUKvJJ8Jf2wcYGGtT7EtJFhRnPS6YY1mw8bO/pub?output=csv",
+      "https://docs.google.com/spreadsheets/d/e/2PACX-1vQyiugn-4cW_5aphBmblauMbDq0FG-fpmUkpQ0cB9XLYKEH-U81Ev6ZyVKr0QfwFV51FhwM9FmDtt-I/pub?gid=0&single=true&output=csv",
+
       {
         download: true,
         header: true,
