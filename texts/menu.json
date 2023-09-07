@@ -1,5 +1,5 @@
 [
-  { "name": "about", "link": "/om" },
-  { "name": "submit", "link": "/indsend" },
-  { "name": "norwegian", "link": "/english" }
+  { "name": "about", "link": "/about" },
+  { "name": "submit", "link": "/submit" },
+  { "name": "norwegian", "link": "/norwegian" }
 ]

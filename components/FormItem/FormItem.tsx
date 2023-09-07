@@ -30,7 +30,7 @@ export default function FormItem({
         id={name}
         value={value}
         onChange={onFieldChange}
-        placeholder={`skriv dit ${name}`}
+        placeholder={`fill your ${name}`}
         className={`${styles.input} ${error && styles.error} ${
           success && styles.success
         } `}

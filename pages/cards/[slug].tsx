@@ -16,6 +16,7 @@ import { slugify } from "../../utils/slugify";
 
 import Blog from "../../types/card.type";
 import { getColor } from "../../utils/getColor";
+import pagedata from "../../texts/single-page.json";
 
 export default function SinglePage() {
   const router = useRouter();
@@ -86,9 +87,9 @@ export default function SinglePage() {
       )}
 
       <section style={{ maxWidth: 600, margin: "auto" }}>
-        <h4>Beskrivelse</h4>
+        <h4>{pagedata.description}</h4>
         <p>{blog?.description}</p>
-        <h4>Hvordan du kan benytte denne ressource</h4>
+        <h4>{pagedata.howtouse}</h4>
         <p>{blog?.howtouse}</p>
       </section>
 
