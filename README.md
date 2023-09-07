@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. duplicate the whole project on the local machine
 2. create new repository
 3. connect to github
@@ -143,3 +144,6 @@ reposnsivness for crooked image
 made links clickabele and openable in new page
 form select is now editable by clicking on a category
 hamburger is not invisible
+=======
+# tromso-nabo
+>>>>>>> 260e9b8676960c2d70a029677b138178128d921c
